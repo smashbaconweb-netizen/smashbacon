@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import OrderStatus from "@/components/OrderStatus";
 
+export const runtime = "edge";
+
 export const metadata: Metadata = {
   title: "Order Status | Smash Bacon",
   robots: { index: false, follow: false },

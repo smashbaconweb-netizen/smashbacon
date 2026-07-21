@@ -33,6 +33,10 @@ export const metadata: Metadata = {
     title: "Smash Bacon — Order Pickup",
     description:
       "Smash burgers, buffalo chicken & shakes inside Market on 8th, National City. Order online for pickup.",
+    images: [{ url: "/opengraph-image.jpg" }],
+  },
+  icons: {
+    apple: "/apple-icon.png",
   },
 };
 
