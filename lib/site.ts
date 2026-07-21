@@ -1,7 +1,7 @@
 // Single source of truth for the site's public URL and business facts.
 // Set NEXT_PUBLIC_SITE_URL at deploy (e.g. https://smashbacon.com).
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://smashbaconhamburgers.com";
 
 export const BUSINESS = {
   name: "Smash Bacon",
