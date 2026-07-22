@@ -96,7 +96,18 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-ink-border py-4 text-center text-xs text-smoke">
-        © {new Date().getFullYear()} Smash Bacon · National City, CA
+        <p>© {new Date().getFullYear()} Smash Bacon · National City, CA</p>
+        <p className="mt-1">
+          Built by{" "}
+          <a
+            href="https://technologyconsultants.ventures"
+            target="_blank"
+            rel="nofollow sponsored"
+            className="underline hover:text-yellow"
+          >
+            Technology Consultants Ventures
+          </a>
+        </p>
       </div>
     </footer>
   );
